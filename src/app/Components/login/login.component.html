@@ -1,0 +1,64 @@
+<div class="container mt-5 pl-5">
+  <small *ngIf="isValid" [ngStyle]="{color: 'red'}" >{{errorMessage}}</small>
+  <div >
+    <marquee><img src="assets/logo11.jpg" alt="" width="300px" height="200px"><h1>PharmaceuticalXYZPharma</h1></marquee>
+  </div>
+    <div class="row">
+      <div class="col-md-3"></div>
+      <div class="col-md-6">
+
+
+        <fieldset class="border p-3">
+        <form action="">
+          <div class="row">
+            <div class="col-md-3"></div>
+            <div class="form-group col-md">
+              <h1>Login to continue</h1>
+            </div>
+          </div>
+    
+          <div class="row">
+            <div class="form-group col-md-12">
+              <label for="exampleInputEmail1"><h3>username</h3></label>
+              <input type="text" class="form-control" aria-describedby="emailHelp" placeholder="Enter email" name="username"
+                [(ngModel)]="username">
+              <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+            </div>
+          </div>
+    
+    
+          <div class="row">
+            <div class="form-group col-md-12">
+              <label for="exampleInputPassword1"><h3>Password</h3></label>
+              <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password" name="password"
+                [(ngModel)]="password">
+            </div>
+          </div>
+    
+          <div class="row">
+            <div class="form-group form-check col-md-6">
+              <input type="checkbox" class="form-check-input" id="exampleCheck1">
+              <label class="form-check-label" for="exampleCheck1">Remember me</label>
+            </div>
+            <div class="col-md-3"></div>
+            <div class="form-group col-md-3">
+              <small>Forget Password?</small>
+            </div>
+          </div>
+    
+          <div class="row">
+            <div class="form-group col-md-12">
+              <input type="submit" class="form-control btn btn-dark" id="exampleInputEmail1" aria-describedby="emailHelp"
+                placeholder="Enter email" (click)="login()" value="LOGIN">
+            </div>
+          </div>
+    
+        </form>
+      </fieldset>
+
+
+
+      </div>
+    </div>
+
+</div>

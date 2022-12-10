@@ -1,0 +1,107 @@
+{
+    "products": [
+        {
+            "id": 1,
+            "Imageofmedicine": "assets/comprime.webp",
+            "Nameofmedicine": "Tormove",
+            "Useofmedicine": "pain reflet fever",
+            "SaltComposition": "paracetamol(500mg)",
+            "About": "Tormove Tablet is a medicine used to relieve pain and to reduce fever.It is used to treat many conditions such as headache.body ache,toothache and common cold.",
+            "SideEffects": "dizziness,lightheadness",
+            "Note":"consume as prescribed by Physcian"
+
+        },
+       
+        {
+            "id": 2,
+            "Imageofmedicine": "assets/comprime3.webp",
+            "Nameofmedicine": "Citractxt",
+            "Useofmedicine": "runny nose sneezing",
+            "SaltComposition": "paracetamol(500mg)",
+            "About": "Tormove Tablet is a medicine used to relieve pain and to reduce fever.It is used to treat many conditions such as headache.body ache,toothache and common cold.",
+            "SideEffects": "dizziness,lightheadness",
+            "Note":"consume as prescribed by Physcian"
+
+        },
+      
+       
+        {
+            "id": 3,
+            "Imageofmedicine": "assets/comprime6.webp",
+            "Nameofmedicine": "Diastag",
+            "Useofmedicine": "Diarreah",
+            "SaltComposition": "paracetamol(500mg)",
+            "About": "Tormove Tablet is a medicine used to relieve pain and to reduce fever.It is used to treat many conditions such as headache.body ache,toothache and common cold.",
+            "SideEffects": "dizziness,lightheadness",
+            "Note":"consume as prescribed by Physcian"
+        },
+
+        {
+            "id": 1,
+            "Imageofmedicine": "assets/comprime3.webp",
+            "Nameofmedicine": "Tormove",
+            "Useofmedicine": "pain reflet fever",
+            "SaltComposition": "paracetamol(500mg)",
+            "About": "Tormove Tablet is a medicine used to relieve pain and to reduce fever.It is used to treat many conditions such as headache.body ache,toothache and common cold.",
+            "SideEffects": "dizziness,lightheadness",
+            "Note":"consume as prescribed by Physcian"
+
+        },
+        {
+            "id": 2,
+            "Imageofmedicine": "assets/comprime6.webp",
+            "Nameofmedicine": "Citractxt",
+            "Useofmedicine": "runny nose sneezing",
+            "SaltComposition": "paracetamol(500mg)",
+            "About": "Tormove Tablet is a medicine used to relieve pain and to reduce fever.It is used to treat many conditions such as headache.body ache,toothache and common cold.",
+            "SideEffects": "dizziness,lightheadness",
+            "Note":"consume as prescribed by Physcian"
+
+        },
+        {
+            "id": 3,
+            "Imageofmedicine": "assets/comprime.webp",
+            "Nameofmedicine": "Diastag",
+            "Useofmedicine": "Diarreah",
+            "SaltComposition": "paracetamol(500mg)",
+            "About": "Tormove Tablet is a medicine used to relieve pain and to reduce fever.It is used to treat many conditions such as headache.body ache,toothache and common cold.",
+            "SideEffects": "dizziness,lightheadness",
+            "Note":"consume as prescribed by Physcian"
+        },
+
+        {
+            "id": 1,
+            "Imageofmedicine": "assets/comprime6.webp",
+            "Nameofmedicine": "Tormove",
+            "Useofmedicine": "pain reflet fever",
+            "SaltComposition": "paracetamol(500mg)",
+            "About": "Tormove Tablet is a medicine used to relieve pain and to reduce fever.It is used to treat many conditions such as headache.body ache,toothache and common cold.",
+            "SideEffects": "dizziness,lightheadness",
+            "Note":"consume as prescribed by Physcian"
+
+        },
+        {
+            "id": 2,
+            "Imageofmedicine": "assets/comprime.webp",
+            "Nameofmedicine": "Citractxt",
+            "Useofmedicine": "runny nose sneezing",
+            "SaltComposition": "paracetamol(500mg)",
+            "About": "Tormove Tablet is a medicine used to relieve pain and to reduce fever.It is used to treat many conditions such as headache.body ache,toothache and common cold.",
+            "SideEffects": "dizziness,lightheadness",
+            "Note":"consume as prescribed by Physcian"
+
+        },
+        {
+            "id": 3,
+            "Imageofmedicine": "assets/comprime3.webp",
+            "Nameofmedicine": "Diastag",
+            "Useofmedicine": "Diarreah",
+            "SaltComposition": "paracetamol(500mg)",
+            "About": "Tormove Tablet is a medicine used to relieve pain and to reduce fever.It is used to treat many conditions such as headache.body ache,toothache and common cold.",
+            "SideEffects": "dizziness,lightheadness",
+            "Note":"consume as prescribed by Physcian"
+        }
+       
+    ]
+   
+}

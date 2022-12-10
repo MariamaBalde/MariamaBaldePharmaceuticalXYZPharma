@@ -1,0 +1,39 @@
+
+<app-navbar></app-navbar>
+
+<form class="d-flex pt-3">
+    <input type="search" name="Name" [(ngModel)]="Name" (ngModelChange)="Search()" placeholder="search" aria-label="Search">
+    <button class="btn btn-outline-sucess" type="submit">Search</button>
+</form>
+
+<div class="container ">
+    <div class="card-header">
+        <h1 class="card-text" style="text-align: center;color:deeppink">Products</h1>
+        <div class="row row-cols-1 row-cols-md-2 g-4 ">
+            <div class="col" style="width: 25rem;" *ngFor="let p of products">
+                <div class="card " style="background-color: #2EC4B6;">
+                    <div class="pb-3 border border-light m-3 bg-secondary ">
+                        <img [src]="p.Imageofmedicine" class="card-img-top" alt="...">
+                        <h2 class="card-title p-3">{{p.Nameofmedicine}}</h2>
+                    </div>
+
+                    <div class="card-body">
+                        <h3 class="card-text">{{p.id}}</h3>
+
+                        <ul>
+                            <li>
+                                <h6>Use:{{p.Useofmedicine}}</h6>
+                            </li>
+                        </ul>
+                        <div class="card-body">
+                            <button class="btn btn-danger" type="button" (click)="detailsProduct(p.id)">See
+                                Details</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<app-footer ></app-footer>
